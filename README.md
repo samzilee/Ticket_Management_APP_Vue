@@ -41,7 +41,7 @@ A fully responsive, accessible ticket management app built with Vue + javascrip 
    # or
    yarn dev
    ```
-3. Open [https://example.app/](https://example.app/) in your browser.
+3. Open [https://ticket-management-app-vue.vercel.app/](https://ticket-management-app-vue.vercel.app/) in your browser.
 
 ## Mock Credentials
 
