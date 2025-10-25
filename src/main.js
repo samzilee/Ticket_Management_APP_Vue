@@ -1,0 +1,16 @@
+import { createApp } from 'vue'
+import './style.css'
+import './styles/global.css'
+import './styles/Navbar.css'
+import './styles/Footer.css'
+import './styles/Auth.css'
+import './styles/Dashboard.css'
+import './styles/Form.css'
+import './styles/Tickets.css'
+import './styles/TicketCard.css'
+import './styles/Toast.css'
+import './styles/Landing.css'
+import App from './App.vue'
+import router from './router'
+
+createApp(App).use(router).mount('#app')
