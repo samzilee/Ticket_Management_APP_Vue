@@ -18,13 +18,9 @@ watch(route, () => {
       <button class="navbar-logo" @click="go('/')">TicketFlow</button>
       <div class="navbar-links">
         <button :class="{ active: route.path === '/' }" @click="go('/')">Home</button>
-        <template v-if="session">
-          <button :class="{ active: route.path === '/dashboard' }" @click="go('/dashboard')">Dashboard</button>
+        <button :class="{ active: route.path === '/dashboard' }" @click="go('/dashboard')">Dashboard</button>
           <button :class="{ active: route.path === '/tickets' }" @click="go('/tickets')">Tickets</button>
-        </template>
-        <template v-else>
-          <button :class="{ active: route.path.startsWith('/auth') }" @click="go('/auth/login')">Login</button>
-        </template>
+       
       </div>
     </div>
   </nav>
